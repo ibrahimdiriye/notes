@@ -1,0 +1,70 @@
+[INPUT DEVICES]
+    [KEYBOARD]
+    [TYPES OF KEYBOARDS-CONNECTORS]
+        ->PS2
+        ->USB
+    [MOUSE]
+    ->OPTICAL MOUSE
+    ->MECHANICAL MOUSE
+    [MICROPHONE]
+    [SCANNERS]
+    ->OMR
+    ->OCR
+    ->BARCODE SCANNER
+    [JOYSTICK]
+    [GAMING PAD/CONTROLLER]
+    [STYLUS]
+    [TOUCHSCREENS]
+
+[OUTPUT DEVICES]
+    [SPEAKERS]
+    [PRINTERS]
+        [IMPACT PRINTERS]
+        ->DOT MATRIX PRINTERS
+        ->DAISY WHEEL PRINTER
+        [NON-IMPACT PRINTERS]
+    [MONITOR]
+    ->CRT
+    ->LCD
+    ->TFT*
+    ->PLASMA
+    ->LED
+    ->OLED
+    [PROJECTOR]
+    [PLOTTER] /* Very large, modified printers used to print on large surfaces e.g Billboards, banners */
+
+
+    [STORAGE]
+    [STORAGE HIERARCHY]
+
+    /* ARRANGED IN DESCENDING ORDER FROM THE FASTEST TO THE SLOWEST */
+    /* SPEED AND CAPACITY ARE INVERSELY PROPORTIONAL */
+
+    [REGISTERS] /* LOWEST CAPACITY, HIGHEST SPEED */
+        -> LV1 CACHE
+        -> LV2 CACHE
+    [RAM] /*RANDOM ACCESS MEMORY */
+    /* RAM IS VOLATILE */
+    [STATIC RAM] /* SRAM */
+        -> USES TRANSISTORS
+    [DYNAMIC RAM] /* DRAM */
+        -> USES CAPACITORS
+    [ROM]
+    /* IT IS NON-VOLATILE */
+    /* ROM IS USED TO STORE SYSTEM SETTINGS AND OTHER CONFIG FILES SUCH AS PASSWORDS, USER ACCOUNTS AND BIOS/UEFI CONFIGURTIONS */
+    [HDD/SSD]
+    [NETWORK]
+    [CLOUD COMPUTING]
+
+    [SECONDARY STORAGE]
+        [MAGNETIC TAPES]
+        ->CASSTTEE TAPES
+        [MAGNETIC DISKS]
+        ->FLOPY DISKETTE
+        ->HDD
+        [OPTICAL DRIVES]
+        ->CD
+        ->DVD
+        [FLASH DISKS]
+        ->FLASH DISKS
+        ->SSD
