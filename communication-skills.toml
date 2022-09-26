@@ -2,9 +2,9 @@
 
 
 SENDER------->MEDIA-------->RECEIVER
-                                |
-                                |
-____________ FEEDBACK_________ |
+|                               |
+|                               |
+^------------FEEDBACK---------<-|
 
     [SENDER]
     ->THIS IS THE PERSON WHO CONCIEVES AND TRANSMITTS THE MESSAGE.
