@@ -7,12 +7,13 @@ z = c
 
 if z == c:
     print("Lawd have mercy!")
-else print ("Ohhhhhhhhh")
+else: 
+    print ("Ohhhhhhhhh")
 
 z -= 1
 
 if z == c:
     print("Whoever threw that paper, your mom's a hoe!")
-else
-exit()
+else:
+    exit()
 
